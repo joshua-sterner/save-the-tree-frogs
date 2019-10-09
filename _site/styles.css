@@ -1,0 +1,98 @@
+body {
+    margin: 0em;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    max-width: 55em;
+    margin: auto;
+}
+
+header div h1 {
+    text-align: center;
+    margin: auto;
+    max-width: 15em;
+    color: white;
+    padding: 0.5em;
+    padding-bottom: 0em;
+}
+
+nav {
+    max-width: 45em;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0em 1em;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+nav ul li {
+    padding: 0.5em;
+}
+
+nav ul li div {
+    display: flex;
+    height: 100%;
+}
+
+nav ul li div a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.nav-about {
+    grid-column: 1;
+}
+
+.nav-who-we-are {
+    grid-column: 2;
+}
+
+.nav-how-to-help {
+    grid-column: 3;
+}
+
+.page-indicator {
+    background-color: white;
+    width: 2em;
+    height: 0.25em;
+    border-radius: 5em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#content {
+    max-width: 51em;
+    margin: auto;
+}
+
+section {
+    margin: 0em 2em;
+}
+
+section h3 {
+    text-indent: 2em;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 0.5em 1em;
+    background-color: black;
+    max-width: max-content;
+    margin: auto;
+    border-radius: 0.5em;
+
+}

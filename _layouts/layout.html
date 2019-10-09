@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initia-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Save the Tree Frogs</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav-about">
+                        <div>
+                            <a href="/">About</a>
+                        </div>
+                    </li>
+                    <li class="nav-who-we-are">
+                        <div>
+                            <a href="/who-we-are">Who We Are</a>
+                        </div>
+                    </li>
+                    <li class="nav-how-to-help">
+                        <div>
+                            <a href="/how-to-help">How To Help</a>
+                        </div>
+                    </li>
+                    <div class="page-indicator {{ page.indicator_class }}"></div>
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+            <section>
+                {{ content }}
+           </section>
+        </div>
+    </body>
+</html>
