@@ -2,12 +2,25 @@ body {
     margin: 0em;
     font-family: sans-serif;
     background-color: rgb(243, 246, 204);
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) auto minmax(min-content, max-content);
+    min-height: 100vh;
+}
+
+.background {
+    background-image: url('/images/background.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 header {
-    background-color: #708861;
-    max-width: 55em;
-    margin: auto;
+    background-color: #708861b5;
+    margin: 0em;
+    box-shadow: 0px 0px 16px 0px #3b4a32b5;
 }
 
 header div h1 {
@@ -74,11 +87,28 @@ nav ul li div a {
 
 #content {
     max-width: 51em;
-    margin: auto;
+    margin: 2em auto;
+    background-color: rgba(228, 255, 207, 0.7);
+    border-radius: 1em;
+    padding: 2em;
+    box-shadow: 0px 0px 32px 0px rgba(62, 68, 57, 0.7), 0px 0px 4px 4px rgba(228, 255, 207, 0.7);
+}
+
+@media (min-width: 55em) {
+    #content {
+        width: 51em;
+    }
+}
+
+@media (max-width: 55em) {
+    #content {
+        margin: 2em;
+    }
 }
 
 section {
-    margin: 0em 2em;
+    margin: 0em;
+    margin-top: -1em;
 }
 
 section h3 {
@@ -96,4 +126,22 @@ section h3 {
     border-radius: 0.5em;
     background-color: #8bdb59;
     box-shadow: 1px 2px 6px 0px #0000009e;
+}
+
+.attribution-footer {
+    grid-row: 3;
+    margin: 0em;
+}
+
+.attribution-footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #0000004f;
+    padding: 0.5em;
+    margin: 0em;
+}
+
+.attribution-footer p a {
+    color: white;
 }
