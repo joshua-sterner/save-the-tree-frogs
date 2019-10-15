@@ -4,16 +4,16 @@ title: Save The Tree Frogs
 indicator_class: nav-about
 ---
 
-## Lorem ipsum dolor sit amet.
+## Why should we change the mascot?
+* NSC doesn't currently have an official mascot
+* Pacifc Tree Frogs, also known as Pacific Chorus Frogs are universal symbols of change, rebirth and personal growth
+* Pacific Tree Frogs live in the wetlands and woodlands on our campus, making them an ideal candidate to represent our school
+* If the pacific tree frogs become our mascot, it will ensure their protection for years and decades to come
 
-* Nulla vestibulum erat eu orci rhoncus tristique.
-* Vestibulum eu massa sollicitudin, efficitur augue ut, luctus odio.
+## What do they do for us?
 
-## Curabitur at dui et massa aliquet congue et vitae sem.
-* Sed in arcu id orci blandit rhoncus vel non tortor.
-* In at eros vitae velit pulvinar bibendum eget sit amet massa.
-* Quisque sit amet justo vel elit egestas condimentum in ut orci.
-
-Integer quis massa non diam hendrerit semper. Pellentesque semper dui et leo laoreet aliquam.
+* They have provided us with medical advances
+* Their tadpoles filter our drinking water
+* Ensuring the protection of the tree frogs will ensure the protection of their habitat
 
 <a class="button" href="https://forms.gle/c2JPmDdbjSXnLsQ96">Sign the Petition</a>

@@ -76,7 +76,7 @@ nav ul li div a {
     grid-column: 3;
 }
 
-.page-indicator {
+#page-indicator {
     background-color: white;
     width: 2em;
     height: 0.25em;
